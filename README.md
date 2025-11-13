@@ -18,7 +18,7 @@ You have two options to run this application: locally on your machine or online 
 
 Option 1: Local Installation
  1. Clone the Repository
-    git clone https://github.com/<DubuV2>/book-explorer.git
+    git clone https://github.com/DubuV2/scraping
     cd book-explorer
  2. Install Dependencies:
     pip install -r requirements.txt
@@ -29,7 +29,7 @@ Open your browser at: http://localhost:8501
 
 Option 2: Online (Streamlit Cloud)
 The application is also available directly on the Streamlit platform:
-- Access this link: https://share.streamlit.io/
+- Access this link: [https://share.streamlit.io/](https://scraping-nrnbnzwskobmfwk3ffnmdj.streamlit.app)
 
 Data Output
 
