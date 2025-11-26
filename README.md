@@ -1,10 +1,24 @@
-Book Explorer
+# Book Explorer
 
 A Streamlit web app that scrapes data from https://books.toscrape.com
 and lets you explore it interactively with filters, charts, and exports.
 This project is built for learning and training purposes.
 
-Features
+---
+
+## Demo
+<p align="center">
+  <img src="assets/demo.gif" width="450">
+  <img src="assets/demo_filter.png" width="200">
+</p>
+
+<p align="center">
+  <img src="assets/demo_data.png" width="600">
+</p>
+
+---
+
+## Features
 
 - Multi-threaded scraping and multi-page architecture.
 - Real-Time Feedback: Live progress bar and detailed logs.
@@ -13,35 +27,60 @@ Features
 - Export: Ability to export the filtered dataset as CSV file.
 - Developer Mode: Access to advanced settings and a direct database view.
 
-Setup and Installation
+---
 
-You have two options to run this application: locally on your machine or online via Streamlit Sharing.
+## Setup and Installation
+You can run this app **locally** or **online**.
 
-Option 1: Local Installation
- 1. Clone the Repository
-    git clone https://github.com/DubuV2/scraping
-    cd book-explorer
- 2. Install Dependencies:
-    pip install -r requirements.txt
- 3. Run the Application:
-    streamlit run src/app.py
+---
 
-Open your browser at: http://localhost:8501
+### Option 1 — Local Installation
 
-Option 2: Online (Streamlit Cloud)
-The application is also available directly on the Streamlit platform:
-- Access this link: [https://share.streamlit.io/](https://scraping-nrnbnzwskobmfwk3ffnmdj.streamlit.app)
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/DubuV2/scraping
+   cd book-explorer
+   ```
 
-Data Output
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-By default, all scraped data is saved to the data/ folder:
-- data/books.csv
-- data/books.json
-- data/books.db (SQLite)
+3. **Run the application**
+   ```bash
+   streamlit run src/app.py
+   ```
 
-    Note: The default save path can be changed directly within the application's interface
+Then open:  
+```
+http://localhost:8501
+```
 
-Author 
+---
 
-Developed by Doufu (DubuV2) - 2025
-Built using Python and Streamlit
+### Option 2 — Online (Streamlit Cloud)
+Run the app directly here:
+
+**Live App:**  
+https://scraping-nrnbnzwskobmfwk3ffnmdj.streamlit.app/
+
+---
+
+
+## Data Output
+
+By default, scraped data is saved in the `data/` folder:
+
+- `data/books.csv`  
+- `data/books.json`  
+- `data/books.db`  
+
+> You can change the output path directly from the app interface.
+
+---
+
+## Author 
+
+Developed by **Doufu (DubuV2)** - 2025
+Built using **Python** and **Streamlit**
